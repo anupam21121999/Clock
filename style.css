@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #1a1c66;
+}
+#clock #time div{
+	display: inline-grid;
+	grid-template-rows: auto auto auto auto auto auto;
+	border: 2px solid white;
+	border-radius: 10px;
+	margin: 2px;
+	padding: 10px;
+	height: 180px;
+	width: 200px;
+	grid-gap: 0px;
+	-webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+	font-size: 40px;
+}
+#clock #time div:nth-child(3)
+{
+	background: #eb1e6d;
+}
+#clock #time div:nth-child(1)
+{
+	background:  #0000ff;
+}
+#clock #time div:nth-child(2)
+{
+	background:  #0000ff;
+}
